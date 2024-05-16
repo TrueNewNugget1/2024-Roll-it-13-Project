@@ -90,7 +90,7 @@ while computer_points < 13 and user_points < 13:
               f" now has {computer_points}.")
 
     print()
-    # Tell user if they are winning, losing or it
+    # Tell user if they are winning, losing or if it's a tie.
     if user_points > computer_points:
         result = "🙂🙂🙂 You are ahead. 🙂🙂🙂"
     elif user_points < computer_points:
