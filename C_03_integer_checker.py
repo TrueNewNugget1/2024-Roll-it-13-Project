@@ -18,6 +18,7 @@ def int_check():
         except ValueError:
             print(error)
 
+
 # Main routine goes here
 target_score = int_check()
 print(target_score)
